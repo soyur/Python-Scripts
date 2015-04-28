@@ -1,6 +1,6 @@
 '''
 Purpose:    Download compressed Lidar (.laz) from NOAA Digital Coast ftp and convert to raster grids (.tif)
-            Visit http://coast.noaa.gov/htdata/lidar1_z/geoid12a/data/
+            Visit http://coast.noaa.gov/htdata/lidar1_z/geoid12a/data/ *Subject to change
 
 Requirements:   Python 2.7+ for LAZ download *Can be used on its own, just comment out the rest
                 LAStools-LAS2LAS for LAZ to LAS conversion, download for free @ http://rapidlasso.com/lastools/
@@ -15,7 +15,7 @@ import os, time, subprocess, arcpy
 from ftplib import FTP
 start = time.clock()
 
-lcPath = r'H:/PostSandy_2012/USACE_MA_RI'  # Path to local folder,
+lcPath = r'H:/PostSandy_2012/USACE_CT'  # Path to local folder,
 ftpSite = 'ftp.coast.noaa.gov'  # ftp site for lidar, shouldn't need to be changed
 ftpDir = 'pub/DigitalCoast/lidar1_z/geoid12a/data/1434/'  # Lidar directory *Depends on area of interest, see link in purpose
 las2las_path = "C:/LAStools/bin/las2las.exe"  # full path to the las2las executable
