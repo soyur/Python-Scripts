@@ -5,4 +5,4 @@ Included:
 
 Script to dowload compressed Lidar (laz) from NOAA Digital Coast FTP site and convert to DEMs
 
-Script to change existing SLD XML
+Script to change existing Styled Layer Descriptor (SLD) XML
