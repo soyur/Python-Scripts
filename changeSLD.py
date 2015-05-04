@@ -1,6 +1,6 @@
 __author__ = 'sstippa'
 '''
-Purpose: Change existing SLD XML
+Purpose: Change existing Styled Layer Descriptor (SLD) XML
 
 Requirements: Python 2.7+ - XML Module
 
